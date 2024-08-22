@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
-import About from "../pages/about/about";
-import Home from "../pages/home/home"
+import About from "../pages/About/index";
+import Home from "../pages/Home/index";
 import SignUp from "../pages/auth/sign-up";
-import Contact from "../pages/contact/contact";
+import Contact from "../pages/Contact/index";
 
 export const publicRoutes = createBrowserRouter([
     {
